@@ -9,8 +9,8 @@ export class CatsController {
     constructor(private catsService: CatsService) {}
 
     @Get()
-    async findAll(): Promise<Cat[]> {
-         return this.catsService.findAll()
+    async findAll():Promise<any> {
+        return this.catsService.findAll()
     }
 
     @Post()
