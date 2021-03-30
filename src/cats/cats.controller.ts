@@ -2,7 +2,7 @@ import { Body, Controller, Get, HttpException, Post, UseFilters } from '@nestjs/
 import { CreateCatDto } from './dto/create-cat.dto'
 import { Cat } from './interfaces/cat.interface'
 import { CatsService }  from './cats.service'
-import { HttpExceptionFilter } from 'src/common/filters/http-exception.filter'
+import { HttpExceptionFilter } from '../../src/common/filters/http-exception.filter'
 
 
 @Controller('cats')
