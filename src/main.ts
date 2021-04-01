@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import { TimeoutInterceptor } from '../src/common/interceptors/timeout.interceptors'
+import { TimeoutInterceptor } from './common/interceptors/timeout.interceptor'
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
