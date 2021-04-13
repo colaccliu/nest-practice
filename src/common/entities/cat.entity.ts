@@ -1,6 +1,7 @@
 import { Exclude, Expose } from 'class-transformer'
 
 export class catEntity { 
+    id: number;
     name: string;
     age: string;
     breed: string;
